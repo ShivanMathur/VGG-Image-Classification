@@ -27,3 +27,10 @@ The project's objective is to utilize the VGG-13 architecture to classify images
   - Early Stopping: Implemented early stopping to monitor validation loss and halt training if improvement ceased for a specified number of epochs (patience value of 4). The training concluded at epoch 19, with saved model weights showing a training accuracy of 92.71% and loss of 0.0018, and validation accuracy of 94.167% and loss of 0.0019. This approach significantly increased test accuracy to 93.02% and reduced test loss to 0.1995.
 
   - Image Augmentation: Applied image augmentation techniques including resizing images to 64x64 pixels and random horizontal flipping with a probability of 0.5. Despite these alterations, test accuracy was 87.46% with a loss of 0.3422, indicating the impact of dataset variation on model performance.
+
+### Report:
+
+For a detailed project report, <a href = "https://github.com/ShivanMathur/VGG-Image-Classification/blob/main/report.pdf" > click here </a>.
+
+### Contact:
+For questions or feedback, please reach out to me at [shivanmthr18@gmail.com](mailto:shivanmthr18@gmail.com).
