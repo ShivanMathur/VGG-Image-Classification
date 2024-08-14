@@ -1,7 +1,7 @@
 # VGG-Image-Classification
 The project's objective is to utilize the VGG-13 architecture to classify images within a dataset consisting of three categories: Dogs, Cars, and Food.
 
-### Implementation:
+## Implementation:
 
 - **Data Preprocessing:** Implemented a data preprocessing pipeline that included extracting, normalizing, and transforming the dataset, ensuring images were converted to a consistent format and scale for optimal model performance.
 
@@ -15,7 +15,7 @@ The project's objective is to utilize the VGG-13 architecture to classify images
 - **Model Evaluation:** Created plots to visualize training and validation accuracy and loss trends. Generated performance metrics including accuracy, precision, recall, F1 score, and confusion matrix for thorough evaluation and analysis of model effectiveness.
 
 
-### Model Performance:
+## Model Performance:
 - Basic Model: Initially developed the model without optimization techniques, serving as a baseline for further improvements.
 
 - Optimization Techniques:
@@ -28,9 +28,14 @@ The project's objective is to utilize the VGG-13 architecture to classify images
 
   - Image Augmentation: Applied image augmentation techniques including resizing images to 64x64 pixels and random horizontal flipping with a probability of 0.5. Despite these alterations, test accuracy was 87.46% with a loss of 0.3422, indicating the impact of dataset variation on model performance.
 
+
+### Code:
+
+The complete project code is available in the <a href = "https://github.com/ShivanMathur/VGG-Image-Classification/blob/main/VGG_Image_Classification.ipynb"> VGG_Image_Classification.ipynb</a>.
+
 ### Report:
 
-For a detailed project report, <a href = "https://github.com/ShivanMathur/VGG-Image-Classification/blob/main/report.pdf" > click here </a>.
+For a detailed project report, <a href = "https://github.com/ShivanMathur/VGG-Image-Classification/blob/main/report.pdf" > click here</a>.
 
 ### Contact:
 For questions or feedback, please reach out to me at [shivanmthr18@gmail.com](mailto:shivanmthr18@gmail.com).
